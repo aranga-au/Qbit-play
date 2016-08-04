@@ -6,3 +6,7 @@ Loading will similor to Spring Boot initialisation.
 
 load all the classes under main application class with @RequestMapping and register them as end-point
 
+#### Build ####
+./gradlew clean build
+#### To Run the app ####
+./gradlew run
