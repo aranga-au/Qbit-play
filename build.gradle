@@ -1,0 +1,16 @@
+group 'org.oss.qubit'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile('junit:junit:4.11')
+    compile('io.advantageous.qbit:qbit-admin:1.10.0.RELEASE')
+    compile('io.advantageous.qbit:qbit-vertx:1.10.0.RELEASE')
+}
